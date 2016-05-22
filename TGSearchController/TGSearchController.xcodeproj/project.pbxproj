@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3D117A1CF17E5800DAEB78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D11791CF17E5800DAEB78 /* main.m */; };
+		4C3D117D1CF17E5800DAEB78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D117C1CF17E5800DAEB78 /* AppDelegate.m */; };
+		4C3D11801CF17E5800DAEB78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D117F1CF17E5800DAEB78 /* ViewController.m */; };
+		4C3D11831CF17E5800DAEB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D11811CF17E5800DAEB78 /* Main.storyboard */; };
+		4C3D11851CF17E5800DAEB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D11841CF17E5800DAEB78 /* Assets.xcassets */; };
+		4C3D11881CF17E5800DAEB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D11861CF17E5800DAEB78 /* LaunchScreen.storyboard */; };
+		4C3D11931CF17E5800DAEB78 /* TGSearchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D11921CF17E5800DAEB78 /* TGSearchControllerTests.m */; };
+		4C3D119E1CF17E5800DAEB78 /* TGSearchControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D119D1CF17E5800DAEB78 /* TGSearchControllerUITests.m */; };
+		4C3D11AD1CF1835300DAEB78 /* TGResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D11AC1CF1835300DAEB78 /* TGResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3D118F1CF17E5800DAEB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3D116D1CF17E5800DAEB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3D11741CF17E5800DAEB78;
+			remoteInfo = TGSearchController;
+		};
+		4C3D119A1CF17E5800DAEB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3D116D1CF17E5800DAEB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3D11741CF17E5800DAEB78;
+			remoteInfo = TGSearchController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3D11751CF17E5800DAEB78 /* TGSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3D11791CF17E5800DAEB78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C3D117B1CF17E5800DAEB78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C3D117C1CF17E5800DAEB78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C3D117E1CF17E5800DAEB78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C3D117F1CF17E5800DAEB78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C3D11821CF17E5800DAEB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3D11841CF17E5800DAEB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3D11871CF17E5800DAEB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C3D11891CF17E5800DAEB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3D118E1CF17E5800DAEB78 /* TGSearchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGSearchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3D11921CF17E5800DAEB78 /* TGSearchControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSearchControllerTests.m; sourceTree = "<group>"; };
+		4C3D11941CF17E5800DAEB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3D11991CF17E5800DAEB78 /* TGSearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGSearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3D119D1CF17E5800DAEB78 /* TGSearchControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSearchControllerUITests.m; sourceTree = "<group>"; };
+		4C3D119F1CF17E5800DAEB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3D11AB1CF1835300DAEB78 /* TGResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGResultViewController.h; sourceTree = "<group>"; };
+		4C3D11AC1CF1835300DAEB78 /* TGResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3D11721CF17E5800DAEB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D118B1CF17E5800DAEB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D11961CF17E5800DAEB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3D116C1CF17E5800DAEB78 = {
+			isa = PBXGroup;
+			children = (
+				4C3D11771CF17E5800DAEB78 /* TGSearchController */,
+				4C3D11911CF17E5800DAEB78 /* TGSearchControllerTests */,
+				4C3D119C1CF17E5800DAEB78 /* TGSearchControllerUITests */,
+				4C3D11761CF17E5800DAEB78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3D11761CF17E5800DAEB78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D11751CF17E5800DAEB78 /* TGSearchController.app */,
+				4C3D118E1CF17E5800DAEB78 /* TGSearchControllerTests.xctest */,
+				4C3D11991CF17E5800DAEB78 /* TGSearchControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3D11771CF17E5800DAEB78 /* TGSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D117B1CF17E5800DAEB78 /* AppDelegate.h */,
+				4C3D117C1CF17E5800DAEB78 /* AppDelegate.m */,
+				4C3D117E1CF17E5800DAEB78 /* ViewController.h */,
+				4C3D117F1CF17E5800DAEB78 /* ViewController.m */,
+				4C3D11811CF17E5800DAEB78 /* Main.storyboard */,
+				4C3D11841CF17E5800DAEB78 /* Assets.xcassets */,
+				4C3D11861CF17E5800DAEB78 /* LaunchScreen.storyboard */,
+				4C3D11891CF17E5800DAEB78 /* Info.plist */,
+				4C3D11781CF17E5800DAEB78 /* Supporting Files */,
+				4C3D11AB1CF1835300DAEB78 /* TGResultViewController.h */,
+				4C3D11AC1CF1835300DAEB78 /* TGResultViewController.m */,
+			);
+			path = TGSearchController;
+			sourceTree = "<group>";
+		};
+		4C3D11781CF17E5800DAEB78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D11791CF17E5800DAEB78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C3D11911CF17E5800DAEB78 /* TGSearchControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D11921CF17E5800DAEB78 /* TGSearchControllerTests.m */,
+				4C3D11941CF17E5800DAEB78 /* Info.plist */,
+			);
+			path = TGSearchControllerTests;
+			sourceTree = "<group>";
+		};
+		4C3D119C1CF17E5800DAEB78 /* TGSearchControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D119D1CF17E5800DAEB78 /* TGSearchControllerUITests.m */,
+				4C3D119F1CF17E5800DAEB78 /* Info.plist */,
+			);
+			path = TGSearchControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3D11741CF17E5800DAEB78 /* TGSearchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3D11A21CF17E5800DAEB78 /* Build configuration list for PBXNativeTarget "TGSearchController" */;
+			buildPhases = (
+				4C3D11711CF17E5800DAEB78 /* Sources */,
+				4C3D11721CF17E5800DAEB78 /* Frameworks */,
+				4C3D11731CF17E5800DAEB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGSearchController;
+			productName = TGSearchController;
+			productReference = 4C3D11751CF17E5800DAEB78 /* TGSearchController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C3D118D1CF17E5800DAEB78 /* TGSearchControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3D11A51CF17E5800DAEB78 /* Build configuration list for PBXNativeTarget "TGSearchControllerTests" */;
+			buildPhases = (
+				4C3D118A1CF17E5800DAEB78 /* Sources */,
+				4C3D118B1CF17E5800DAEB78 /* Frameworks */,
+				4C3D118C1CF17E5800DAEB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3D11901CF17E5800DAEB78 /* PBXTargetDependency */,
+			);
+			name = TGSearchControllerTests;
+			productName = TGSearchControllerTests;
+			productReference = 4C3D118E1CF17E5800DAEB78 /* TGSearchControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3D11981CF17E5800DAEB78 /* TGSearchControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3D11A81CF17E5800DAEB78 /* Build configuration list for PBXNativeTarget "TGSearchControllerUITests" */;
+			buildPhases = (
+				4C3D11951CF17E5800DAEB78 /* Sources */,
+				4C3D11961CF17E5800DAEB78 /* Frameworks */,
+				4C3D11971CF17E5800DAEB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3D119B1CF17E5800DAEB78 /* PBXTargetDependency */,
+			);
+			name = TGSearchControllerUITests;
+			productName = TGSearchControllerUITests;
+			productReference = 4C3D11991CF17E5800DAEB78 /* TGSearchControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3D116D1CF17E5800DAEB78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tangge;
+				TargetAttributes = {
+					4C3D11741CF17E5800DAEB78 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4C3D118D1CF17E5800DAEB78 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C3D11741CF17E5800DAEB78;
+					};
+					4C3D11981CF17E5800DAEB78 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C3D11741CF17E5800DAEB78;
+					};
+				};
+			};
+			buildConfigurationList = 4C3D11701CF17E5800DAEB78 /* Build configuration list for PBXProject "TGSearchController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3D116C1CF17E5800DAEB78;
+			productRefGroup = 4C3D11761CF17E5800DAEB78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3D11741CF17E5800DAEB78 /* TGSearchController */,
+				4C3D118D1CF17E5800DAEB78 /* TGSearchControllerTests */,
+				4C3D11981CF17E5800DAEB78 /* TGSearchControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3D11731CF17E5800DAEB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D11881CF17E5800DAEB78 /* LaunchScreen.storyboard in Resources */,
+				4C3D11851CF17E5800DAEB78 /* Assets.xcassets in Resources */,
+				4C3D11831CF17E5800DAEB78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D118C1CF17E5800DAEB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D11971CF17E5800DAEB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3D11711CF17E5800DAEB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D11AD1CF1835300DAEB78 /* TGResultViewController.m in Sources */,
+				4C3D11801CF17E5800DAEB78 /* ViewController.m in Sources */,
+				4C3D117D1CF17E5800DAEB78 /* AppDelegate.m in Sources */,
+				4C3D117A1CF17E5800DAEB78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D118A1CF17E5800DAEB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D11931CF17E5800DAEB78 /* TGSearchControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D11951CF17E5800DAEB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D119E1CF17E5800DAEB78 /* TGSearchControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3D11901CF17E5800DAEB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3D11741CF17E5800DAEB78 /* TGSearchController */;
+			targetProxy = 4C3D118F1CF17E5800DAEB78 /* PBXContainerItemProxy */;
+		};
+		4C3D119B1CF17E5800DAEB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3D11741CF17E5800DAEB78 /* TGSearchController */;
+			targetProxy = 4C3D119A1CF17E5800DAEB78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3D11811CF17E5800DAEB78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3D11821CF17E5800DAEB78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3D11861CF17E5800DAEB78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3D11871CF17E5800DAEB78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3D11A01CF17E5800DAEB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C3D11A11CF17E5800DAEB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C3D11A31CF17E5800DAEB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C3D11A41CF17E5800DAEB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C3D11A61CF17E5800DAEB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGSearchControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGSearchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGSearchController.app/TGSearchController";
+			};
+			name = Debug;
+		};
+		4C3D11A71CF17E5800DAEB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGSearchControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGSearchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGSearchController.app/TGSearchController";
+			};
+			name = Release;
+		};
+		4C3D11A91CF17E5800DAEB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGSearchControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGSearchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGSearchController;
+			};
+			name = Debug;
+		};
+		4C3D11AA1CF17E5800DAEB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGSearchControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGSearchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGSearchController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3D11701CF17E5800DAEB78 /* Build configuration list for PBXProject "TGSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3D11A01CF17E5800DAEB78 /* Debug */,
+				4C3D11A11CF17E5800DAEB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3D11A21CF17E5800DAEB78 /* Build configuration list for PBXNativeTarget "TGSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3D11A31CF17E5800DAEB78 /* Debug */,
+				4C3D11A41CF17E5800DAEB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C3D11A51CF17E5800DAEB78 /* Build configuration list for PBXNativeTarget "TGSearchControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3D11A61CF17E5800DAEB78 /* Debug */,
+				4C3D11A71CF17E5800DAEB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C3D11A81CF17E5800DAEB78 /* Build configuration list for PBXNativeTarget "TGSearchControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3D11A91CF17E5800DAEB78 /* Debug */,
+				4C3D11AA1CF17E5800DAEB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3D116D1CF17E5800DAEB78 /* Project object */;
+}
